@@ -21,6 +21,7 @@
 		1C9EECF31984FF8D009AF1FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9EECD51984FF8D009AF1FC /* UIKit.framework */; };
 		1C9EECFB1984FF8D009AF1FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C9EECF91984FF8D009AF1FC /* InfoPlist.strings */; };
 		1C9EECFD1984FF8D009AF1FC /* SQLiteDAtabaseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9EECFC1984FF8D009AF1FC /* SQLiteDAtabaseExampleTests.m */; };
+		1C9EED071984FFBB009AF1FC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9EED061984FFBB009AF1FC /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1C9EECF81984FF8D009AF1FC /* SQLiteDAtabaseExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLiteDAtabaseExampleTests-Info.plist"; sourceTree = "<group>"; };
 		1C9EECFA1984FF8D009AF1FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C9EECFC1984FF8D009AF1FC /* SQLiteDAtabaseExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLiteDAtabaseExampleTests.m; sourceTree = "<group>"; };
+		1C9EED061984FFBB009AF1FC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C9EED071984FFBB009AF1FC /* libsqlite3.dylib in Frameworks */,
 				1C9EECD41984FF8D009AF1FC /* CoreGraphics.framework in Frameworks */,
 				1C9EECD61984FF8D009AF1FC /* UIKit.framework in Frameworks */,
 				1C9EECD21984FF8D009AF1FC /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		1C9EECD01984FF8D009AF1FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C9EED061984FFBB009AF1FC /* libsqlite3.dylib */,
 				1C9EECD11984FF8D009AF1FC /* Foundation.framework */,
 				1C9EECD31984FF8D009AF1FC /* CoreGraphics.framework */,
 				1C9EECD51984FF8D009AF1FC /* UIKit.framework */,

@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <sqlite3.h>
 
 @interface SQLiteDatabaseExampleViewController : UIViewController
+
+@property (strong, nonatomic) NSString *databasePath;
+@property (nonatomic) sqlite3 *DB;
+@property (strong, nonatomic) IBOutlet UITextField *name;
+@property (strong, nonatomic) IBOutlet UITextField *address;
+@property (strong, nonatomic) IBOutlet UITextField *phone;
+- (IBAction)save:(id)sender;
+- (IBAction)find:(id)sender;
+- (IBAction)remove:(id)sender;
+
 
 @end
