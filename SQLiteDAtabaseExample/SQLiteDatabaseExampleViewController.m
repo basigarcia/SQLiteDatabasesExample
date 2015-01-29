@@ -117,7 +117,6 @@
         else{
             [self showUIAlertWithMessage:@"Failed to search the database" andTitle:@"Error"];
         }
-        sqlite3_finalize(statement);
         sqlite3_close(_DB);
     }
 }
